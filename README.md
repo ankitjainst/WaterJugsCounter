@@ -1,4 +1,10 @@
 # WaterJugsCounter
+## Important ##
+
+1. This is an assessment exercise.
+2. Some code is bundled along with to help speed up the process but is not necessary to be used.
+3. This is different than the traditional water jug problem, so read the question carefully before attempting.
+
 ## Intro to water jug problem ##
 
 The water jug problem is defined as follows:
