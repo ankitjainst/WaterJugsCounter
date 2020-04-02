@@ -42,7 +42,7 @@ Step 6 | (0 3)   | put from a into b| a < mb - b
 Step 7 | (10 3)  | fill a to full
 Step 8 | (0 13)  | put from a into b| a < mb - b
 
-Important note that there is no other way you can extract 13 liters given that the sizes of jugs are 10 and 17. 
+Important note that there is no other way you can extract 13 liters in less than 8 steps given that the sizes of jugs are 10 and 17. 
 ### Example 2 ###
 Another example is (41, 23) for the size of (jugA, jugB) and to extract a quantity of 13.
 
