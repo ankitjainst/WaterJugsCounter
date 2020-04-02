@@ -24,15 +24,17 @@ Size of water jug A and size of water jug B are both >= 10 and <= 50
 ### Example 1 ###
 For e.g.  (10, 17) is such a pair because in order to solve a water jug problem with size of first water jug as 10 and size of second water jug as 17 and to extract a quantity of 13. We need to take the following steps
 
-Step 0 : (0 0),  initial state
-Step 1 : (10 0), fill a to full
-Step 2 : (0 10), put from a into b, a < mb - b
-Step 3 : (10 10), fill a to full
-Step 4 : (3 17), put from a into b, a >= mb - b
-Step 5 : (3 0), throw away b
-Step 6 : (0 3), put from a into b, a < mb - b
-Step 7 : (10 3), fill a to full
-Step 8 : (0 13), put from a into b, a < mb - b
+Step   | State   | Description
+-------|---------|-----------------------------
+Step 0 | (0 0)   | initial state
+Step 1 | (10 0)  | fill a to full
+Step 2 | (0 10)  | put from a into b| a < mb - b
+Step 3 | (10 10) | fill a to full
+Step 4 | (3 17)  | put from a into b| a >= mb - b
+Step 5 | (3 0)   |  throw away b
+Step 6 | (0 3)   | put from a into b| a < mb - b
+Step 7 | (10 3)  | fill a to full
+Step 8 | (0 13)  | put from a into b| a < mb - b
 
 Important note that there is no other way you can extract 13 liters given that the sizes of jugs are 10 and 17. 
 ### Example 2 ###
