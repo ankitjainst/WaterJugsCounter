@@ -52,6 +52,10 @@ Step 6 | (36 23) | put from a into b| a >= mb - b
 Step 7 | (36 0)  | throw away b
 Step 8 | (13 23) | put from a into b| a >= mb - b
 
+## Helpful Resources ##
+Attached in the public repository at https://github.com/ankitjainst/WaterJugsCounter is code for representing the Water Jug State. You will need to write additional code to solve this question.
+It is not necessary to solve this program using that code only.
+
 ## What to submit ## 
 A count of how many pairs exist such as (10,17) and (41,23) detailed in the examples above. Note there are more than 20 such pairs and less than 100 such pairs, where size of water jugs are >= 10 and <= 50. 
 
