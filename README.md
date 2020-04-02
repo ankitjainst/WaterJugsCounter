@@ -39,15 +39,18 @@ Step 8 | (0 13)  | put from a into b| a < mb - b
 Important note that there is no other way you can extract 13 liters given that the sizes of jugs are 10 and 17. 
 ### Example 2 ###
 Another example is (41, 23) for the size of (jugA, jugB) and to extract a quantity of 13.
-Step 0 : (0 0),  initial state
-Step 1 : (41 0), fill a to full
-Step 2 : (18 23), put from a into b, a >= mb - b
-Step 3 : (18 0), throw away b
-Step 4 : (0 18), put from a into b, a < mb - b
-Step 5 : (41 18), fill a to full
-Step 6 : (36 23), put from a into b, a >= mb - b
-Step 7 : (36 0), throw away b
-Step 8 : (13 23), put from a into b, a >= mb - b
+
+Step   | State   | Description
+-------|---------|-----------------------------
+Step 0 | (0 0)   |  initial state
+Step 1 | (41 0)  | fill a to full
+Step 2 | (18 23) | put from a into b| a >= mb - b
+Step 3 | (18 0)  | throw away b
+Step 4 | (0 18)  | put from a into b| a < mb - b
+Step 5 | (41 18) | fill a to full
+Step 6 | (36 23) | put from a into b| a >= mb - b
+Step 7 | (36 0)  | throw away b
+Step 8 | (13 23) | put from a into b| a >= mb - b
 
 ## What to submit ## 
 A count of how many pairs exist such as (10,17) and (41,23) detailed in the examples above. Note there are more than 20 such pairs and less than 100 such pairs, where size of water jugs are >= 10 and <= 50. 
