@@ -58,6 +58,6 @@ It is not necessary to solve this program using that code only.
 
 ## What to submit ## 
 A count of how many pairs exist such as (10,17) and (41,23) detailed in the examples above. Note there are more than 20 such pairs and less than 100 such pairs, where size of water jugs are >= 10 and <= 50. 
-
+For this program we consider (10,17) and (17,10) as two distinct pairs.
 ## How and where to submit ##
 Email the count with your resume and any source code that you used to arrive at the solution to ankit@swiftthoughts.com and also contact via whatsapp at 8790868714.
